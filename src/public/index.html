@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Webpage</title>
+    <style>
+        body {
+            font-family: 'Press Start 2P', cursive;
+            background-color: #222;
+            color: #fff;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+        }
+
+        header, section, footer {
+            margin: 20px 0;
+        }
+
+        header {
+            font-size: 2em;
+            color: #00FF7F;
+        }
+
+        section {
+            width: 80%;
+            background-color: #444;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 0 10px #00FF7F;
+        }
+
+        h2 {
+            color: #FFD700;
+        }
+
+        p {
+            font-size: 1em;
+            color: #fff;
+            margin: 10px 0;
+        }
+
+        a {
+            color: #00FF7F;
+            text-decoration: none;
+            font-size: 1.2em;
+        }
+
+        footer {
+            font-size: 0.8em;
+            color: #888;
+        }
+
+        /* 8-bit styling */
+        .pixel-border {
+            border: 4px solid #FFD700;
+            padding: 10px;
+        }
+
+        .contact-link {
+            display: inline-block;
+            padding: 10px 20px;
+            background-color: #00FF7F;
+            color: #222;
+            border-radius: 5px;
+            box-shadow: 0 0 5px #FFD700;
+        }
+    </style>
+    <!-- Adding Google Font for 8-bit style -->
+    <link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        Welcome to My Webpage!
+    </header>
+
+    <section class="about pixel-border">
+        <h2>About Me</h2>
+        <p>Hello! I'm a passionate backend developer with experience in Java, Spring Boot, and Node.js. I'm eager to bring my skills to your enterprise and contribute to creating efficient and scalable backend systems.</p>
+    </section>
+
+    <section class="projects pixel-border">
+        <h2>Projects</h2>
+        <p>Here are some of the projects I've worked on:</p>
+        <ul>
+            <li>Project 1 - Description of the project.</li>
+            <li>Project 2 - Description of the project.</li>
+            <li>Project 3 - Description of the project.</li>
+        </ul>
+    </section>
+
+    <section class="contact pixel-border">
+        <h2>Contact</h2>
+        <p>If you're interested in working with me, feel free to <a href="mailto:your.email@example.com" class="contact-link">get in touch!</a></p>
+    </section>
+
+    <footer>
+        &copy; 2024 My Personal Webpage. All rights reserved.
+    </footer>
+</body>
+</html>
